@@ -37,14 +37,14 @@ Users should be able to:
 
 ### 📸 Screenshot
 
-![Project Screenshot](./screenshot.jpg)
+![Project Screenshot](./design/desktop-products-added-cart.png)
 
 ---
 
 ### 🔗 Live Demo
 
-**Live Site URL:** [Your Live Site](#)  
-**Solution URL:** [Your Solution](#)
+**Live Site URL:** [https://product-list-cart-lake.vercel.app/](#)  
+**Solution URL:** [https://github.com/Thaththathirian/product-list-cart.git](#)
 
 ---
 
