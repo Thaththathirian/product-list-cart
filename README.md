@@ -43,8 +43,8 @@ Users should be able to:
 
 ### 🔗 Live Demo
 
-**Live Site URL:** [https://product-list-cart-lake.vercel.app/](#)  
-**Solution URL:** [https://github.com/Thaththathirian/product-list-cart.git](#)
+**Live Site URL:** [Click here](https://product-list-cart-lake.vercel.app/)
+**Solution URL:** [GitHub Repo](https://github.com/Thaththathirian/product-list-cart.git)
 
 ---
 
