@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Product list with cart</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="products-container">
+        <h1>Desserts</h1>
+        <div class="cards" id="cards"></div>
+      </div>
+
+      <div class="carts-container" id="carts-container">
+        <h2>Your cart <span>(0)</span></h2>
+        <div class="empty-cart" id="empty-cart">
+          <img
+            src="assets/images/illustration-empty-cart.svg"
+            alt="Empty cart"
+          />
+          <p>Your added items will apper here</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup-overlay" id="popup-overlay">
+      <div class="popup-content">
+        <div class="popup-header">
+          <img
+            src="./assets/images/icon-order-confirmed.svg"
+            alt="Order Confirmed"
+          />
+          <h2>Order Confirmed</h2>
+          <p>We hope you enjoyed your food!</p>
+        </div>
+
+        <div class="items-and-total">
+          <div id="popup-items" ></div>
+
+          <div class="popup-total">
+            <p>Order Total</p>
+            <h3 id="popup-total-price"></h3>
+          </div>
+        </div>
+
+        <div class="popup-buttons">
+          <button id="start-new-order">Start New Order</button>
+          <button id="close-popup">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
